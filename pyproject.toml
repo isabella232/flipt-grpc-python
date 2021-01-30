@@ -10,7 +10,7 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "^2.7"
+python = "^2.7 || ^3.5"
 grpcio = "^1.28.1"
 grpcio-tools = "^1.28.1"
 protoc-gen-swagger = "^0.1.0"
